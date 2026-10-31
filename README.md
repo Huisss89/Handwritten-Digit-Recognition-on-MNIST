@@ -1,7 +1,7 @@
 # Handwritten Digit Recognition on MNIST using k-NN
 A machine learning project that explores handwritten digit recognition using the MNIST dataset, with K-Nearest Neighbors (KNN) as the primary classification model. The project also compares its performance against Logistic Regression and Support Vector Machine (SVM) to evaluate the effectiveness of traditional machine learning algorithms.
 
-Run the project: https://colab.research.google.com/drive/1WOAckETuqfDMhyPBFa3o_eV3ldc1411g?usp=sharing
+**Run the project**: https://colab.research.google.com/drive/1WOAckETuqfDMhyPBFa3o_eV3ldc1411g?usp=sharing
 
 ## Dataset
 The project uses the **MNIST handwritten digit dataset**, which contains 70,000 grayscale images of handwritten digits (0–9), divided into 60,000 training images and 10,000 testing images.
