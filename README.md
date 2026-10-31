@@ -14,6 +14,10 @@ The notebook uses `tf.keras.datasets.mnist.load_data()` to download and load the
 - Compare model performance using multiple evaluation metrics.
 - Analyze classification errors, model behavior, and generalization capabilities.
 
+## Requirements
+- Python 3.9 or later (Python 3.10 recommended)
+- Jupyter Notebook
+  
 ## Technologies Used
 - **Python:** Model implementation and data processing
 - **TensorFlow:** Loading the MNIST dataset
