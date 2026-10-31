@@ -18,7 +18,7 @@ The notebook uses `tf.keras.datasets.mnist.load_data()` to download and load the
 
 ## Requirements
 - Python 3.9 or later (Python 3.10 recommended)
-- Jupyter Notebook or Google Collab
+- Jupyter Notebook or Google Colab
   
 ## Technologies Used
 - **Python:** Model implementation and data processing
@@ -31,8 +31,8 @@ The notebook uses `tf.keras.datasets.mnist.load_data()` to download and load the
 ## Setup and Installation
 1. Clone the repository:
    ```bash
-   git clone <https://github.com/Huisss89/Handwritten-Digit-Recognition-on-MNIST-using-k-NN->
-   cd <https://github.com/Huisss89/Handwritten-Digit-Recognition-on-MNIST-using-k-NN->
+   git clone <https://github.com/Huisss89/Handwritten-Digit-Recognition-on-MNIST>
+   cd <https://github.com/Huisss89/Handwritten-Digit-Recognition-on-MNIST>
    ```
 2. Create and activate a virtual environment:
    ```bash
