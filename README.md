@@ -44,41 +44,49 @@ The notebook uses `tf.keras.datasets.mnist.load_data()` to download and load the
 5. Open `SourceCode.ipynb` and run all cells.
 
 ## Project Workflow
-1. Data Preprocessing
+
+### 1. Data Preprocessing
 - Load the MNIST dataset using TensorFlow.
 - Verify image dimensions (28 × 28), pixel ranges, and missing values.
 - Normalize pixel values from 0–255 to 0–1.
 - Flatten images into 784-dimensional feature vectors.
 - Convert image data into appropriate numerical data types.
-- Check and remove duplicate records.
+- Check for and remove duplicate records.
 
-2. Algorithm Description
-- **K-Nearest Neighbors (KNN)**: Classifies digits based on the majority class among the nearest data points.
-- **Logistic Regression**: Predicts digit classes using probability-based classification.
-- **Support Vector Machine (SVM)**: Classifies digits by finding optimal decision boundaries.
+### 2. Algorithm Implementation
+- **K-Nearest Neighbors (KNN):** Classifies handwritten digits based on the majority class among their nearest neighbors.
+- **Logistic Regression:** Predicts digit classes using probability-based classification.
+- **Support Vector Machine (SVM):** Classifies digits by identifying decision boundaries that separate different classes.
 
-3. Hyperparameter Tuning
-GridSearchCV is applied to identify suitable model parameters and improve classification performance.
+### 3. Hyperparameter Tuning
+Apply **GridSearchCV** to identify suitable model parameters and optimize classification performance.
 
-4. Model Evaluation
-The models are evaluated using:
+### 4. Model Evaluation
+Evaluate model performance using the following metrics and techniques:
+
+**Evaluation Metrics:**
 - Accuracy
 - Precision
 - Recall
 - F1-score
-- ROC curves and AUC
+- ROC curves and Area Under the Curve (AUC)
 - Matthews Correlation Coefficient (MCC)
+
+**Validation and Analysis:**
 - Stratified cross-validation
 - Learning curves
-- Confusion matrices and error analysis
+- Confusion matrices
+- Classification error analysis
 
-5. Results and Model Comparison
-- **KNN** achieved the **best overall performance**, obtaining **97.14%** testing accuracy and the highest F1-score.
-- **SVM** achieved 94.72% testing accuracy, demonstrating competitive classification performance.
-- **Logistic Regression** achieved 92.59% testing accuracy, providing a relatively efficient classification approach.
+### 5. Results and Model Comparison
+- **KNN:** Achieved the best overall performance, with **97.14% test accuracy** and the highest F1-score.
+- **SVM:** Achieved **94.72% test accuracy**, demonstrating competitive classification performance.
+- **Logistic Regression:** Achieved **92.59% test accuracy**, providing a relatively efficient classification approach.
 
-6. Visualizations and Analysis
-The project includes various visualizations to better understand model performance and classification behavior.
+### 6. Visualizations and Analysis
+The project includes visualizations to examine model performance and classification behavior, including confusion matrices, learning curves, ROC curves, and examples of correctly and incorrectly classified digits.
 
-7. Conclusion
-The project demonstrates that traditional machine learning algorithms remain effective for handwritten digit recognition. Among the three models, KNN achieved the highest overall classification performance on the MNIST dataset. However, SVM and Logistic Regression offered competitive alternatives with different efficiency and generalization trade-offs. This project provided practical experience in data preprocessing, machine learning implementation, hyperparameter optimization, model evaluation, and comparative performance analysis.
+### 7. Conclusion
+The project demonstrates that traditional machine learning algorithms remain effective for handwritten digit recognition. KNN achieved the highest overall classification performance among the three models, while SVM and Logistic Regression offered alternative approaches with different efficiency and generalization trade-offs.
+
+This project provided practical experience in data preprocessing, machine learning implementation, hyperparameter optimization, model evaluation, and comparative performance analysis.
