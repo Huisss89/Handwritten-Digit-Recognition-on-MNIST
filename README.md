@@ -3,6 +3,8 @@ A machine learning project that explores handwritten digit recognition using the
 
 **Run the project**: https://colab.research.google.com/drive/1WOAckETuqfDMhyPBFa3o_eV3ldc1411g?usp=sharing
 
+<img width="1802" height="594" alt="image" src="https://github.com/user-attachments/assets/0659015e-e78b-407a-aae6-3375255a0435" />
+
 ## Dataset
 The project uses the **MNIST handwritten digit dataset**, which contains 70,000 grayscale images of handwritten digits (0–9), divided into 60,000 training images and 10,000 testing images.
 
@@ -16,7 +18,7 @@ The notebook uses `tf.keras.datasets.mnist.load_data()` to download and load the
 
 ## Requirements
 - Python 3.9 or later (Python 3.10 recommended)
-- Jupyter Notebook
+- Jupyter Notebook or Google Collab
   
 ## Technologies Used
 - **Python:** Model implementation and data processing
